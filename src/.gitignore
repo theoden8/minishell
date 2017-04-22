@@ -8,3 +8,4 @@ shellsplit
 fsa_dump
 *.log
 temp*
+*.o

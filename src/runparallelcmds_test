@@ -1,0 +1,9 @@
+echo "foo"
+echo bar
+echo quack
+echo < asf > /fds/asd
+echo fruck
+echo poo
+echo gee
+>&2 echo moo
+echo < sad

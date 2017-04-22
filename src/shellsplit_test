@@ -1,0 +1,10 @@
+./reader >a<b
+haha
+boo > "asd"'bda'<x&
+i kill kenny ""; i "kill"'kenny'
+i "kill" kenny
+i 'kill' > "kenny"
+i 'kill' "kenny"
+>&2
+>&2 ./program 2>&1<file
+./program <file>"f>i\&le"

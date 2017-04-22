@@ -1,0 +1,10 @@
+*.dSYM
+reader
+sleeper
+argvp
+runparallelcmds
+runcmds
+shellsplit
+fsa_dump
+*.log
+temp*

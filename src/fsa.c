@@ -83,6 +83,7 @@ void set_args_fsa(fsa_t *f) {
 
   connect(*f, DQUOTE_BEGIN, SYM_ANY, DQUOTE);
   connect(*f, DQUOTE_BEGIN, '"', DQUOTE_END);
+  connect(*f, DQUOTE_BEGIN, '\\', BCKSLSH_DQ_IN);
   connect(*f, DQUOTE, '\\', BCKSLSH_DQ_IN);
   connect(*f, DQUOTE, '"', DQUOTE_END);
   connect(*f, DQUOTE_END, SYM_ANY, DEFAULT);

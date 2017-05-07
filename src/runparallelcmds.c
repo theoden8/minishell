@@ -44,7 +44,7 @@ main(int argc, char *argv[]) {
   seed_rng();
   get_temp_filename(len);
   char SEMAPHORE_NAME[80];
-  sprintf(SEMAPHORE_NAME, "/sem/w11prac_%d", rand());
+  sprintf(SEMAPHORE_NAME, "/sem_minishell_%d", rand());
   int fork_id = 0;
   sem_t *semaphore = create_semaphore(SEMAPHORE_NAME, numprocs);
   close_semaphore(semaphore, SEMAPHORE_NAME);

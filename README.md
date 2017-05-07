@@ -1,4 +1,4 @@
-# Mini Shell
+# minishell
 
 ## Author
 
@@ -28,4 +28,4 @@ Executes all commands in parallel (with a certain limit on the number of threads
 
 ## Note
 
-This is submitted for CS2002 St Andrews week 5 practical.
+This is submitted for CS2002 St Andrews as 5th practical.

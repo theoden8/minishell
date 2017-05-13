@@ -28,4 +28,4 @@ Executes all commands in parallel (with a certain limit on the number of threads
 
 ## Note
 
-This is submitted for CS2002 St Andrews as 5th practical.
+This is submitted for CS2002 St Andrews as week 11 practical.

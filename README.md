@@ -26,6 +26,12 @@ Executes all commands.
 
 Executes all commands in parallel (with a certain limit on the number of threads).
 
+## Usage
+
+To build, use `make`.
+
+Takes input from stdin. Does not work very well interactively.
+
 ## Note
 
 This is submitted for CS2002 St Andrews as week 11 practical.

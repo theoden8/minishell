@@ -33,7 +33,7 @@ void explain_simplecmd(simplecmd s) {
 
 main(int argc, char *argv[]) {
   int len;
-  start_log("shellsplit.log");
+  start_log("log/shellsplit.log");
   filestream in = make_filestream(stdin);
   while(!in.seen_eof) {
     simplecmd s = parse_simplecmd(&in, &len);

@@ -9,7 +9,7 @@
 #include "parser.h"
 
 main() {
-  start_log("runcmds.log");
+  start_log("log/runcmds.log");
   int len;
   filestream in = make_filestream(stdin);
   while(!in.seen_eof) {

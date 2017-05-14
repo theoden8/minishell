@@ -18,7 +18,7 @@
 #include "random.h"
 
 main(int argc, char *argv[]) {
-  start_log("runparallelcmds.log");
+  start_log("log/runparallelcmds.log");
   int numprocs = 2;
   // getopt
   int choice;

@@ -13,3 +13,4 @@ fsa_dump
 *.log
 temp*
 *.o
+Report.pdf
